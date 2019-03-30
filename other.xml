@@ -1,0 +1,37 @@
+<application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/usr/local/bin/node">
+      <version-cache version="11.5.0" last-modified="1545559924000" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/Cellar/node/11.5.0/bin/node" />
+    <local-interpreter path="/usr/local/Cellar/node/11.4.0/bin/node" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.60408163" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="PhpStorm.InitialConfiguration" value="true" />
+    <property name="evlsprt3.191" value="15" />
+    <property name="evlsprt3.PS-191.5109.15" value="15" />
+    <property name="exception.accepted.notices" value="182193a2" />
+    <property name="file.gist.reindex.count" value="107753" />
+    <property name="settings.code.style.selected.tab.HTML" value="Other" />
+    <property name="settings.code.style.selected.tab.JavaScript" value="Arrangement" />
+    <property name="settings.code.style.selected.tab.XML" value="Other" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="ts.lib.d.ts.version" value="3.3.3333" />
+  </component>
+  <component name="TabdirConfiguration">
+    <option name="charsInName" value="5" />
+    <option name="countMaxDirsFromStart" value="true" />
+    <option name="dirSeparator" value="|" />
+    <option name="filesExtensions" value="" />
+    <option name="maxDirsToShow" value="3" />
+    <option name="projectConfigEnabled" value="false" />
+    <option name="reduceDirNames" value="true" />
+    <option name="relativeTo" />
+    <option name="removeDuplicates" value="false" />
+    <option name="titleFormat" value="[{0}] {1}" />
+    <option name="useExtensions" value="Do not use" />
+  </component>
+</application>
