@@ -1,5 +1,4 @@
 <keymap version="1" name="Nuclear_keymap" parent="Mac OS X">
-  <action id="Console.TableResult.SelectRow" />
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="ctrl alt a" />
   </action>
