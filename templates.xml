@@ -27,6 +27,18 @@
           <option name="key" value="descr" />
         </TemplateKey>
         <TemplateKey>
+          <option name="groupName" value="JavaScript" />
+          <option name="key" value="importitems" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="JavaScript" />
+          <option name="key" value="importns" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="JavaScript" />
+          <option name="key" value="importdefault" />
+        </TemplateKey>
+        <TemplateKey>
           <option name="groupName" value="Kotlin" />
           <option name="key" value="object" />
         </TemplateKey>

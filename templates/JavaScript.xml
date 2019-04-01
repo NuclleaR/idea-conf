@@ -1,0 +1,46 @@
+<templateSet group="JavaScript">
+  <template name="fori" value="for($VARKIND$ $INDEX$ = 0; $INDEX$ &lt; $LIMIT$; $INDEX$++) {&#10;  $END$&#10;}" description="Create iteration loop" toReformat="true" toShortenFQNames="true">
+    <variable name="VARKIND" expression="jsSuggestDefaultVariableKind(false)" defaultValue="let" alwaysStopAt="false" />
+    <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="LIMIT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="itar" value="for ($VARKIND$ $INDEX$ = 0; $INDEX$ &lt; $ARRAY$.length; $INDEX$++) {&#10;  $VARKIND2$ $VAR$ = $ARRAY$[$INDEX$];&#10;  $END$&#10;}" description="Iterate elements of array" toReformat="true" toShortenFQNames="true">
+    <variable name="VARKIND" expression="jsSuggestDefaultVariableKind(false)" defaultValue="let" alwaysStopAt="false" />
+    <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
+    <variable name="VARKIND2" expression="jsSuggestDefaultVariableKind()" defaultValue="let" alwaysStopAt="false" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="imi" value="import {$ITEM$$END$} from &quot;$MODULE$&quot;;&#10;" description="Import statement - import {b} from 'a'" toReformat="true" toShortenFQNames="true">
+    <variable name="MODULE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="ITEM" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ima" value="import * as $ITEM$ from &quot;$MODULE$&quot;;&#10;$END$" description="Import statement - import * as b from 'a'" toReformat="true" toShortenFQNames="true">
+    <variable name="MODULE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="ITEM" expression="jsSuggestImportedEntityName()" defaultValue="Namespace" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="im" value="import $ITEM$ from &quot;$MODULE$&quot;;&#10;$END$" description="Import statement - import b from 'a'" toReformat="true" toShortenFQNames="true">
+    <variable name="MODULE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="ITEM" expression="jsSuggestImportedEntityName()" defaultValue="Namespace" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="st" value="setTimeout(() =&gt; {&#10;    $END$&#10;}, $TIME$);" toReformat="false" toShortenFQNames="true">
+    <variable name="TIME" expression="" defaultValue="0" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
