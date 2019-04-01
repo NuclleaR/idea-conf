@@ -37,7 +37,7 @@
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="st" value="setTimeout(() =&gt; {&#10;    $END$&#10;}, $TIME$);" toReformat="false" toShortenFQNames="true">
+  <template name="st" value="setTimeout(() =&gt; {&#10;    $END$&#10;}, $TIME$);" description="" toReformat="false" toShortenFQNames="true">
     <variable name="TIME" expression="" defaultValue="0" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />

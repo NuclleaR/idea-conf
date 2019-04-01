@@ -1,0 +1,7 @@
+<templateSet group="private">
+  <template name="todo" value="// ToDo Sergey Koreniuk: $END$" description="ToDo" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
