@@ -1,0 +1,16 @@
+<templateSet group="user">
+  <template name="cn" value="className=$END$" description="className" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSX_HTML" value="true" />
+    </context>
+  </template>
+  <template name="deb" value="debugger;" description="debugger" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="st" value="setTimeout(() =&gt; {&#10;    $END$&#10;}, $TIME$);" description="setTimeout" toReformat="false" toShortenFQNames="true">
+    <variable name="TIME" expression="" defaultValue="0" alwaysStopAt="true" />
+  </template>
+  <template name="todo" value="// ToDo Sergey Koreniuk: $END$" description="ToDo" toReformat="false" toShortenFQNames="true" />
+</templateSet>
