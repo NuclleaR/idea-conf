@@ -16,8 +16,8 @@
     </context>
   </template>
   <template name="lom" value="console.log('$CLASS$ @ $FUNC$:',$END$)" description="Log method" toReformat="false" toShortenFQNames="true">
-    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="FUNC" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLASS" expression="jsClassName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="FUNC" expression="jsMethodName()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
